@@ -1,1 +1,0 @@
-Personal website in progress
