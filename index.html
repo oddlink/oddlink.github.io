@@ -1,13 +1,42 @@
 <DOCTYPE! html>
-    <html>
+    <html lang="en" class="dark">
         <head>
+            <title>Oddlink</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="/defaulthtml/css.css" type="text/css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            
             <script src="js/script.js"></script>
         </head>
-        <body>
-            <A HREF="whoami/whoami-home.html">$whoami</A>
-            <A HREF="blogs/blogs-home.html">/blogs</A>
-            <A HREF="projects/projects-home.html">/projects</A>
-        </body>
+
+        <body class="dark:bg-zinc-800 dark:text-zinc-200" style="font-family: 'Montserrat', sans-serif;">
+  
+            <header class="mx-auto bg-sky-900 text-white text-center">
+              <h1 class="text-5xl font-bold tracking-wide pt-14">Oddlink</h1>
+              <p class="text-xl p-5 pb-10 font-light tracking-wide">ECE/CS student hacker</p>
+            </header>
+            
+          
+            <nav class="sticky top-0 w-full p-2 bg-sky-900 flex flex-row font-light text-white z-10">
+              <a href="/" class="p-2 hover:text-sky-300">Home</a>
+              <a href="projects/projects-home.html" class="p-2 hover:text-sky-300">Projects</a>
+              <a href="writeups/writeups-home.html" class="p-2 hover:text-sky-300">Writeups</a>
+              <span class="flex-1"></span>
+            </nav>
+          
+            
+          <section class="p-5 text-center">
+            <h2 class="p-2 italic text-2xl tracking-wide text-sky-600 dark:text-sky-500">- About Me -</h2>
+            <p class="max-w-screen-md mx-auto"> Currently @ Duke University studying Electrical/Computer Engineering and Computer Science, interested in all things computer security. This is space, in progress, for my CTFs and projects.</p>
+          </section>
+  
+          </body>
+
+        
     </html>
 
 </DOCTYPE>
